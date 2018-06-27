@@ -874,7 +874,7 @@ public class LispObject //extends Lisp
     return type_error(this, Symbol.FUNCTION);
   }
 
-  public LispObject execute(LispObject[] args)
+  public LispObject execute(LispObject... args)
   {
     return type_error(this, Symbol.FUNCTION);
   }

@@ -307,7 +307,7 @@ public abstract class Function extends Operator
     }
 
     @Override
-    public LispObject execute(LispObject[] args)
+    public LispObject execute(LispObject... args)
     {
         return error(new WrongNumberOfArgumentsException(this));
     }
